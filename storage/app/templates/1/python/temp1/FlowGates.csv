@@ -1,0 +1,2 @@
+flowgate,lines,flow_limit,stage_ini,stage_fin,NI_L1,NF_L1,NI_L2,NF_L2,NI_L3,NF_L3,NI_L4,NF_L4,NI_L5,NF_L5,NI_L6,NF_L6
+1,2,190,2017-02-01 00:00:00,2017-03-01 00:00:00,DOS,UNO,TRES,DOS,,,,,,,,

@@ -1,0 +1,5 @@
+,capacity (MW),Losses,wSpeed_min,wSpeed_max,speed_resolution, Measuring height,hub height,adjustment,density(Kg/m3),Distance(m),diameter(m),Entrance_Stage,Area,SpeedDataMinutes,rows
+Isagen1D,200,0.96,3,21,2,10,91.5,0.21,1.25,1500,110,2017-01-01 00:00:00,UNO,W001,3
+Isagen2D,376.6,0.95,3,25,0.5,10,91.5,0.21,1.25,1755,117,2017-01-01 00:00:00,UNO,W002,5
+Isagen3D,200,0.96,3,21,1,10,91.5,0.21,1.25,1500,110,NE,UNO,W001,4
+Isagen4D,200,0.96,3,21,1,10,91.5,0.21,1.25,1500,110,NE,UNO,W001,4

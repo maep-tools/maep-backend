@@ -1,0 +1,12 @@
+codigo ,H/W/S,localizacion,resolucion,nombre,p_instalada (MW),FP (MWh/m3/s)
+3212002,3,2,12,Medellin,100,1
+3212003,3,3,12,Bquilla,100,2
+3212004,3,3,12,Cali,100,3
+3212005,3,3,12,Carmen de B,100,4
+3212006,3,3,12,Santa Marta,100,5
+3212007,3,3,12,Sucre,100,6
+3212008,3,3,12,Uribia ,100,7
+3212009,3,3,12,Valledupar,100,8
+2312001,2,3,12,Pepetshi,100,9
+3212010,3,3,12,Casanare,100,10
+3212011,3,3,12,Villavicencio ,100,11

@@ -1,0 +1,27 @@
+{
+    "name": "yab/cerebrum",
+    "description": "The easiest way to add some mental magic to any part of your Laravel/Lumen app.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Lantz",
+            "email": "matt@yabhq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": "5.*",
+        "nesbot/carbon": "^1.21"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.4",
+        "phpunit/phpunit": "^6.0",
+        "orchestra/testbench": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yab\\Cerebrum\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

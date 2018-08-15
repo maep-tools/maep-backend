@@ -1,0 +1,270 @@
+53 Set Declarations
+    Areas : Dim=0, Dimen=1, Size=1, Domain=None, Ordered=False, Bounds=(1, 1)
+        [1]
+    AreasDmd : Dim=0, Dimen=1, Size=1, Domain=None, Ordered=False, Bounds=(1, 1)
+        [1]
+    AreasRnw : Dim=0, Dimen=1, Size=0, Domain=None, Ordered=False, Bounds=(None, None)
+        []
+    Batteries : Dim=0, Dimen=1, Size=0, Domain=None, Ordered=False, Bounds=(None, None)
+        []
+    Blocks : Dim=0, Dimen=1, Size=1, Domain=None, Ordered=False, Bounds=(1, 1)
+        [1]
+    Circuits : Dim=0, Dimen=1, Size=0, Domain=None, Ordered=False, Bounds=(None, None)
+        []
+    Cuts : Dim=0, Dimen=1, Size=1, Domain=None, Ordered=False, Bounds=(1, 1)
+        [1]
+    Gates : Dim=0, Dimen=1, Size=0, Domain=None, Ordered=False, Bounds=(None, None)
+        []
+    Hydro : Dim=0, Dimen=1, Size=1, Domain=None, Ordered=False, Bounds=None
+        ['URRA']
+    Small : Dim=0, Dimen=1, Size=0, Domain=None, Ordered=False, Bounds=(None, None)
+        []
+    SpillArcs : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=(None, None)
+        []
+    Thermal : Dim=0, Dimen=1, Size=1, Domain=None, Ordered=False, Bounds=None
+        ['a']
+    TurbiningArcs : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=(None, None)
+        []
+    Wind : Dim=0, Dimen=1, Size=0, Domain=None, Ordered=False, Bounds=(None, None)
+        []
+    balance_index : Dim=0, Dimen=2, Size=1, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    chargeB_index : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    coefcBatt_index : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    coefcTerm_index : Dim=0, Dimen=2, Size=1, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    ctBalace_index : Dim=0, Dimen=2, Size=1, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    ctDemand_index : Dim=0, Dimen=2, Size=1, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    ctGates_index : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    ctGenW_index : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    ctLvlBlk_index : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    ctOpf_index : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    deficit_index : Dim=0, Dimen=2, Size=1, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    demand_index : Dim=0, Dimen=2, Size=1, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    flines_index : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    gateLimt_index : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    gateLines : Dim=0, Dimen=3, Size=0, Domain=None, Ordered=False, Bounds=(None, None)
+        []
+    iniLvlBlk_index : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    lineLimit_index : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    line_index : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    linebus : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=(None, None)
+        []
+    linesAreaIn : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=(None, None)
+        []
+    linesAreaOut : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=(None, None)
+        []
+    lvlBlk_index : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    maxGenB_index : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    maxGenH_index : Dim=0, Dimen=2, Size=1, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    maxGenS_index : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    maxGenT_index : Dim=0, Dimen=2, Size=1, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    maxGenW_index : Dim=0, Dimen=2, Size=1, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    meanWind_index : Dim=0, Dimen=2, Size=1, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    minGenS_index : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    minGenT_index : Dim=0, Dimen=2, Size=1, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    prodB_index : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    prodH_index : Dim=0, Dimen=2, Size=1, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    prodS_index : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    prodT_index : Dim=0, Dimen=2, Size=1, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    prodW_index : Dim=0, Dimen=2, Size=0, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    rationing_index : Dim=0, Dimen=2, Size=1, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    resHydro : Dim=0, Dimen=1, Size=1, Domain=None, Ordered=False, Bounds=None
+        ['URRA']
+    spillH_index : Dim=0, Dimen=2, Size=1, Domain=None, Ordered=False, Bounds=None
+        Virtual
+    spillW_index : Dim=0, Dimen=2, Size=1, Domain=None, Ordered=False, Bounds=None
+        Virtual
+
+32 Param Declarations
+    BatteriesArea : Size=0, Index=Batteries, Domain=Any, Default=None, Mutable=False
+        Key : Value
+    HydroArea : Size=1, Index=Hydro, Domain=Any, Default=None, Mutable=False
+        Key  : Value
+        URRA :     1
+    SmallArea : Size=0, Index=Small, Domain=Any, Default=None, Mutable=False
+        Key : Value
+    ThermalArea : Size=1, Index=Thermal, Domain=Any, Default=None, Mutable=False
+        Key : Value
+          a :     1
+    coefcBatt : Size=0, Index=coefcBatt_index, Domain=Any, Default=None, Mutable=True
+        Key : Value
+    coefcTerm : Size=1, Index=coefcTerm_index, Domain=Any, Default=None, Mutable=True
+        Key         : Value
+        ('URRA', 1) :     0
+    constTerm : Size=1, Index=Cuts, Domain=Any, Default=None, Mutable=True
+        Key : Value
+          1 :     0
+    cost : Size=1, Index=Thermal, Domain=Any, Default=None, Mutable=True
+        Key : Value
+          a :   9.5
+    demand : Size=1, Index=demand_index, Domain=Any, Default=None, Mutable=True
+        Key    : Value
+        (1, 1) : 7440.0
+    factorB : Size=0, Index=Batteries, Domain=Any, Default=None, Mutable=True
+        Key : Value
+    factorH : Size=1, Index=Hydro, Domain=Any, Default=None, Mutable=True
+        Key  : Value
+        URRA : 277.77777777777777
+    flines : Size=0, Index=flines_index, Domain=Any, Default=None, Mutable=True
+        Key : Value
+    gateLimt : Size=0, Index=gateLimt_index, Domain=Any, Default=None, Mutable=True
+        Key : Value
+    hydroCost : Size=1, Index=Hydro, Domain=Any, Default=None, Mutable=False
+        Key  : Value
+        URRA : 37.35
+    inflows : Size=1, Index=Hydro, Domain=Any, Default=None, Mutable=True
+        Key  : Value
+        URRA : 2.6784
+    iniLvl : Size=0, Index=Batteries, Domain=Any, Default=None, Mutable=True
+        Key : Value
+    iniLvlBlk : Size=0, Index=iniLvlBlk_index, Domain=Any, Default=None, Mutable=True
+        Key : Value
+    iniVol : Size=1, Index=Hydro, Domain=Any, Default=None, Mutable=True
+        Key  : Value
+        URRA :   0.0
+    lineLimit : Size=0, Index=lineLimit_index, Domain=Any, Default=None, Mutable=True
+        Key : Value
+    maxGenB : Size=0, Index=maxGenB_index, Domain=Any, Default=None, Mutable=True
+        Key : Value
+    maxGenH : Size=1, Index=maxGenH_index, Domain=Any, Default=None, Mutable=True
+        Key         : Value
+        ('URRA', 1) : 822.1927334400001
+    maxGenS : Size=0, Index=maxGenS_index, Domain=Any, Default=None, Mutable=True
+        Key : Value
+    maxGenT : Size=1, Index=maxGenT_index, Domain=Any, Default=None, Mutable=True
+        Key      : Value
+        ('a', 1) : 104160.0
+    maxGenW : Size=1, Index=maxGenW_index, Domain=Any, Default=None, Mutable=True
+        Key    : Value
+        (1, 1) :   0.0
+    maxVolH : Size=1, Index=Hydro, Domain=Any, Default=None, Mutable=False
+        Key  : Value
+        URRA : 500.0
+    maxlvlB : Size=0, Index=Batteries, Domain=Any, Default=None, Mutable=True
+        Key : Value
+    meanWind : Size=1, Index=meanWind_index, Domain=Any, Default=None, Mutable=True
+        Key    : Value
+        (1, 1) :     0
+    minGenS : Size=0, Index=minGenS_index, Domain=Any, Default=None, Mutable=True
+        Key : Value
+    minGenT : Size=1, Index=minGenT_index, Domain=Any, Default=None, Mutable=True
+        Key      : Value
+        ('a', 1) :   0.0
+    minVolH : Size=1, Index=Hydro, Domain=Any, Default=None, Mutable=False
+        Key  : Value
+        URRA :   0.0
+    minlvlB : Size=0, Index=Batteries, Domain=Any, Default=None, Mutable=True
+        Key : Value
+    rationing : Size=1, Index=rationing_index, Domain=Any, Default=None, Mutable=True
+        Key    : Value
+        (1, 1) :   2.0
+
+15 Var Declarations
+    balance : Size=1, Index=balance_index
+        Key    : Lower : Value : Upper : Fixed : Stale : Domain
+        (1, 1) :  None :   0.0 :  None : False : False :  Reals
+    chargeB : Size=0, Index=chargeB_index
+        Key : Lower : Value : Upper : Fixed : Stale : Domain
+    deficit : Size=1, Index=deficit_index
+        Key    : Lower : Value  : Upper  : Fixed : Stale : Domain
+        (1, 1) :     0 : 7440.0 : 7440.0 : False : False :  Reals
+    futureCost : Size=1, Index=None
+        Key  : Lower : Value : Upper : Fixed : Stale : Domain
+        None :     0 :   0.0 :  None : False : False : NonNegativeReals
+    line : Size=0, Index=line_index
+        Key : Lower : Value : Upper : Fixed : Stale : Domain
+    lvl : Size=0, Index=Batteries
+        Key : Lower : Value : Upper : Fixed : Stale : Domain
+    lvlBlk : Size=0, Index=lvlBlk_index
+        Key : Lower : Value : Upper : Fixed : Stale : Domain
+    prodB : Size=0, Index=prodB_index
+        Key : Lower : Value : Upper : Fixed : Stale : Domain
+    prodH : Size=1, Index=prodH_index
+        Key         : Lower : Value : Upper             : Fixed : Stale : Domain
+        ('URRA', 1) :     0 :   0.0 : 822.1927334400001 : False : False :  Reals
+    prodS : Size=0, Index=prodS_index
+        Key : Lower : Value : Upper : Fixed : Stale : Domain
+    prodT : Size=1, Index=prodT_index
+        Key      : Lower : Value : Upper    : Fixed : Stale : Domain
+        ('a', 1) :   0.0 :   0.0 : 104160.0 : False : False :  Reals
+    prodW : Size=0, Index=prodW_index
+        Key : Lower : Value : Upper : Fixed : Stale : Domain
+    spillH : Size=1, Index=spillH_index
+        Key         : Lower : Value  : Upper : Fixed : Stale : Domain
+        ('URRA', 1) :     0 : 2.6784 :  None : False : False : NonNegativeReals
+    spillW : Size=1, Index=spillW_index
+        Key    : Lower : Value : Upper : Fixed : Stale : Domain
+        (1, 1) :     0 :  None :  None : False :  True : NonNegativeReals
+    vol : Size=1, Index=Hydro
+        Key  : Lower : Value : Upper : Fixed : Stale : Domain
+        URRA :   0.0 :   0.0 : 500.0 : False : False :  Reals
+
+1 Objective Declarations
+    OBJ : Size=1, Index=None, Active=True
+        Key  : Active : Sense    : Expression
+        None :   True : minimize : cost[a] * prodT[a,1] + 37.35 * prodH[URRA,1] * factorH[URRA] + rationing[1,1] * deficit[1,1] + futureCost
+
+9 Constraint Declarations
+    ctBalace : Size=1, Index=ctBalace_index, Active=True
+        Key    : Lower : Body         : Upper : Active
+        (1, 1) :   0.0 : balance[1,1] :   0.0 :   True
+    ctDemand : Size=1, Index=ctDemand_index, Active=True
+        Key    : Lower       : Body                                                                     : Upper       : Active
+        (1, 1) : demand[1,1] : prodT[a,1] + prodH[URRA,1] * factorH[URRA] + balance[1,1] + deficit[1,1] : demand[1,1] :   True
+    ctFcf : Size=1, Index=Cuts, Active=True
+        Key : Lower : Body                                                      : Upper : Active
+          1 :  -Inf : coefcTerm[URRA,1] * vol[URRA] + constTerm[1] - futureCost :   0.0 :   True
+    ctGates : Size=0, Index=ctGates_index, Active=True
+        Key : Lower : Body : Upper : Active
+    ctGenW : Size=0, Index=ctGenW_index, Active=True
+        Key : Lower : Body : Upper : Active
+    ctLvl : Size=0, Index=Batteries, Active=True
+        Key : Lower : Body : Upper : Active
+    ctLvlBlk : Size=0, Index=ctLvlBlk_index, Active=True
+        Key : Lower : Body : Upper : Active
+    ctOpf : Size=0, Index=ctOpf_index, Active=True
+        Key : Lower : Body : Upper : Active
+    ctVol : Size=1, Index=Hydro, Active=True
+        Key  : Lower : Body                                                                      : Upper : Active
+        URRA :   0.0 : iniVol[URRA] + inflows[URRA] - prodH[URRA,1] - spillH[URRA,1] - vol[URRA] :   0.0 :   True
+
+1 Suffix Declarations
+    dual : Direction=Suffix.IMPORT, Datatype=Suffix.FLOAT
+        Key           : Value
+        ctBalace[1,1] :  -9.5
+        ctDemand[1,1] :   9.5
+             ctFcf[1] :  -1.0
+          ctVol[URRA] :   0.0
+
+111 Declarations: Blocks Cuts Hydro resHydro SpillArcs TurbiningArcs Thermal Small Wind Batteries Areas AreasDmd AreasRnw Circuits linesAreaIn linesAreaOut cost ThermalArea SmallArea rationing_index rationing demand_index demand inflows meanWind_index meanWind factorH HydroArea hydroCost factorB BatteriesArea coefcTerm_index coefcTerm constTerm coefcBatt_index coefcBatt iniVol iniLvl iniLvlBlk_index iniLvlBlk maxGenH_index maxGenH minGenT_index minGenT maxGenT_index maxGenT minGenS_index minGenS maxGenS_index maxGenS maxGenB_index maxGenB maxGenW_index maxGenW minVolH maxVolH minlvlB maxlvlB lineLimit_index lineLimit prodT_index prodT prodS_index prodS prodH_index prodH prodW_index prodW prodB_index prodB chargeB_index chargeB line_index line spillH_index spillH deficit_index deficit balance_index balance vol lvl futureCost spillW_index spillW lvlBlk_index lvlBlk linebus flines_index flines Gates gateLines gateLimt_index gateLimt OBJ ctDemand_index ctDemand ctBalace_index ctBalace ctVol ctLvlBlk_index ctLvlBlk ctLvl ctGenW_index ctGenW ctFcf ctOpf_index ctOpf ctGates_index ctGates dual

@@ -1,0 +1,4 @@
+A_Initial,B_Final,A_to_B[MW],B_to_Al[MW],Efficiency,resistence,reactance
+UNO,DOS,126,126,0.98,0.001,0.2
+UNO,TRES,250,250,0.98,0.001,0.2
+DOS,TRES,130,130,0.98,0.001,0.1

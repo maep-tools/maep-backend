@@ -1,0 +1,50 @@
+{
+    "name": "yab/laracogs",
+    "description": "Prepare your Laravel apps incredibly fast, with various commands, services, facades and boilerplates.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Lantz",
+            "email": "matt@yabhq.com"
+        },
+        {
+            "name": "Chris Blackwell",
+            "email": "chris@yabhq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "doctrine/dbal": "^2.5",
+        "illuminate/support": "^5.5",
+        "yab/crudmaker": "^1.3",
+        "yab/formmaker": "^1.2",
+        "yab/crypto": "~1.0",
+        "yab/cerebrum": "~1.0",
+        "yab/laratest": "~0.1"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.4",
+        "mikey179/vfsStream": "^1.6",
+        "orchestra/testbench": "^3.4",
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yab\\Laracogs\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yab\\Laracogs\\LaracogsProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

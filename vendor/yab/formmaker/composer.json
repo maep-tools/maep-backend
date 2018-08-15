@@ -1,0 +1,51 @@
+{
+    "name": "yab/formmaker",
+    "description": "A remarkably magical form and input maker tool for Laravel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Lantz",
+            "email": "matt@yabhq.com"
+        },
+        {
+            "name": "Chris Blackwell",
+            "email": "chris@yabhq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "doctrine/dbal": "^2.5",
+        "illuminate/support": "^5.4",
+        "laravelcollective/html": "^5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "mockery/mockery": "^0.9.4",
+        "mikey179/vfsStream": "^1.6",
+        "orchestra/database": "^3.4",
+        "orchestra/testbench": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yab\\FormMaker\\": "src/"
+        },
+        "files": [
+          "src/Helpers/form_maker.php",
+          "src/Helpers/input_maker.php"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yab\\FormMaker\\FormMakerProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

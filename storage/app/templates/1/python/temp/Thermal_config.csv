@@ -1,0 +1,2 @@
+,Capacity (MW),Entrance_Stage,Tipo,Area,Fuel,dummy,GenMin,GenMax,forced_unavailability ,historic_unavailability ,O&M variable,MBTU/MWh,FE Ton/Mwh
+a,140,E,Gas,Area 1,Combustible 1,,0,140,0,0,7.5,1,1
