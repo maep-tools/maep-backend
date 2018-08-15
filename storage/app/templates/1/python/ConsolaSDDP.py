@@ -69,20 +69,20 @@ commit = params['commit']
 
 
 # read data options
-read_data = True
-param_calculation = True 
-param_opf = True         # OPF model
-wind_model2 = False      # Second model of wind plants
-flow_gates = True        # Security constraints   
+read_data = params['read_data']
+param_calculation = params['param_calculation'] 
+param_opf = params['param_opf']         # OPF model
+wind_model2 = params['wind_model2']      # Second model of wind plants
+flow_gates = params['flow_gates']        # Security constraints   
 
 # operation model options
-policy = True
-simulation = True
-parallel = False 
+policy = params['policy']
+simulation = params['simulation']
+parallel = params['parallel'] 
 
 # PRINT ORDER: 1. dispatch curves, 2. marginal cost
-results = True
-curves = [True, False]
+results = params['results']
+curves = params['curves']
 
 import redis
 
