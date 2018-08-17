@@ -32,6 +32,19 @@ Es necesario que el backend cuente con todos los permisos en la carpeta storage 
 ```
 chmod -R 777 ./storage ./bootstrap`
 ```
+### Config the max size in the php.ini config.
+```
+upload_max_filesize = 40M
+post_max_size = 40M
+```
+### Redis
+
+```
+sudo systemctl enable redis-server
+```
+
+
+
 
 ### Python Libraries
 
@@ -50,17 +63,6 @@ bash Anaconda3-5.0.1-Linux-x86_64.sh
 For obtain the python3 path
 ```
 which python3
-```
-
-### Config the max size in the php.ini config.
-```
-upload_max_filesize = 40M
-post_max_size = 40M
-```
-### Redis
-
-```
-sudo systemctl enable redis-server
 ```
 
 Gurobi needs to be installed in your server:
