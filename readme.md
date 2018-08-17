@@ -13,7 +13,7 @@ If you need to deploy this please check this documentation. https://laravel.com/
 ### Seeds
 The application comes with preconfigured registers. If you need execute this please insert this command:
 
-`php artisan db:seed'
+`php artisan db:seed`
 
 
 ### License
