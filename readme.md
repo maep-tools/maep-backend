@@ -18,8 +18,7 @@ NODE >= 8.9.1
 PM2 >= 2.10.1
 SUPERVISORD >= 3.3.3
 PYTHON3
-
-
+```
 
 It´s important to know the installation process of a Laravel app. Also you need to know how to install nodejs scripts.
 
