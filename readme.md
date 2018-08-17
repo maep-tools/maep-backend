@@ -8,7 +8,7 @@ MAEP web is a tool for manage the models of MAEP.
 Our backend system was build using Laravel. Laravel is a web application framework with expressive, elegant syntax. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects.
 You need to config the .env file that contains the environment variables of the configurations of the system (Databases, email, queue configuration)
 
-It´s important to know the installation process of a Laravel app.
+It´s important to know the installation process of a Laravel app. Also you need to know how to install nodejs scripts.
 
 ### Deployment
 If you need to deploy this please check this documentation. https://laravel.com/docs/5.5/deployment
