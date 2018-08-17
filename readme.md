@@ -49,7 +49,7 @@ https://laravel.com/docs/5.5/seeding
 
 ### Configurar número de workers
 Change the number of Workers in the supervisord.conf
-`
+```
 [program:queue]
 process_name=%(program_name)s_%(process_num)02d
 command=php /var/www/maep_back/artisan --timeout=0 queue:work
@@ -58,7 +58,8 @@ autorestart=true
 numprocs=1
 redirect_stderr=true
 stderr_logfile=/var/www/maep_back/laraqueue.supervisord_out.log
-stdout_logfile=/var/www/maep_back/laraqueue.supervisord_out.log`
+stdout_logfile=/var/www/maep_back/laraqueue.supervisord_out.log
+```
 
 
 
