@@ -17,7 +17,9 @@ If you need to deploy this please check this documentation. https://laravel.com/
 ### Permissions
 Es necesario que el backend cuente con todos los permisos en la carpeta storage y en la carpeta bootstrap para ello ejecutamos:
 
-`chmod -R 777 ./storage ./bootstrap`
+```
+chmod -R 777 ./storage ./bootstrap`
+```
 
 ### Python Libraries
 
