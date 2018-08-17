@@ -52,6 +52,11 @@ For obtain the python3 path
 which python3
 ```
 
+### Config the max size in the php.ini config.
+```
+upload_max_filesize = 40M
+post_max_size = 40M
+```
 
 
 Gurobi needs to be installed in your server:
