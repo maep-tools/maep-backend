@@ -20,6 +20,26 @@ Es necesario que el backend cuente con todos los permisos en la carpeta storage 
 `chmod -R 777 ./storage ./bootstrap`
 
 ### Python Libraries
+
+Install Anaconda
+If you need info about how to install Anaconda in Linux:
+https://www.anaconda.com/download/#linux
+
+You need to download de installer using curl or wget and then execute.
+```
+curl -O https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh
+````
+then
+````
+bash Anaconda3-5.0.1-Linux-x86_64.sh
+````
+For obtain the python3 path
+```
+which python3
+```
+
+
+
 Gurobi needs to be installed in your server:
 
 `conda install -c gurobi gurobi`
