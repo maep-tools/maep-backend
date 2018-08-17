@@ -64,7 +64,9 @@ stderr_logfile=/var/www/maep_back/laraqueue.supervisord_out.log
 stdout_logfile=/var/www/maep_back/laraqueue.supervisord_out.log
 ```
 
-### NodeJS installation
+### NodeJS realtime features:
+If you want realtime features in the software:
+
 In the socket folder:
 ```
 npm install
