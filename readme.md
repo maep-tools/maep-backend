@@ -15,6 +15,33 @@ The application comes with preconfigured registers. If you need execute this ple
 
 `php artisan db:seed`
 
+If you need more information:
+https://laravel.com/docs/5.5/seeding
+
+
+### Permissions
+Es necesario que el backend cuente con todos los permisos en la carpeta storage y en la carpeta bootstrap para ello ejecutamos:
+
+`chmod -R 777 ./storage ./bootstrap`
+
+### Instalación de Librerías python
+Es necesario que gurobi se encuentre instalado para ello debemos instalar:
+
+`conda install -c gurobi gurobi`
+
+Muy importante configurar la licencia de gurobi.Para más información:
+http://www.gurobi.com/documentation/8.0/quickstart_mac/obtaining_a_gurobi_license.html
+
+Ejecutamos el siguiente comando para configurar el resto de librerías.
+
+`pip3 install numpy scipy pyomo progressbar`
+
+Es conveniente descargar MAEP CORE en el servidor y verificar que esté ejecutando correctamente.
+
+
+
+
+
 
 ### License
 MIT License
