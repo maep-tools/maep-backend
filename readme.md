@@ -32,6 +32,7 @@ Exec this command in your command line for install the python packages.
 `pip3 install numpy scipy pyomo progressbar`
 
 ### Migrations
+You need to create a database called laracog in a mysql database.
 This command will create the tables in the database.
 Execute:
 `php artisan migrate`
