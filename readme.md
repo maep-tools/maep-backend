@@ -17,7 +17,7 @@ REDIS >= 3.0.2
 NODE >= 8.9.1
 PM2 >= 2.10.1
 SUPERVISORD >= 3.3.3
-PYTHON3
+PYTHON >= 3.0.0
 ```
 
 It´s important to know the installation process of a Laravel app. Also you need to know how to install nodejs scripts.
