@@ -10,14 +10,6 @@ Our backend system was build using Laravel. Laravel is a web application framewo
 ### Deployment
 If you need to deploy this please check this documentation. https://laravel.com/docs/5.5/deployment
 
-### Seeds
-The application comes with preconfigured registers. If you need execute this please insert this command:
-
-`php artisan db:seed`
-
-If you need more information:
-https://laravel.com/docs/5.5/seeding
-
 
 ### Permissions
 Es necesario que el backend cuente con todos los permisos en la carpeta storage y en la carpeta bootstrap para ello ejecutamos:
@@ -36,9 +28,37 @@ Exec this command in your command line for install the python packages.
 
 `pip3 install numpy scipy pyomo progressbar`
 
+### Migrations
+This command will create the tables in the database.
+Execute:
+`php artisan migrate`
+
+For more information about migrations:
+https://laravel.com/docs/5.5/migrations
+
+
+### Seeds
+The application comes with preconfigured registers. If you need execute this please insert this command:
+
+`php artisan db:seed`
+
+If you need more information:
+https://laravel.com/docs/5.5/seeding
 
 
 
+### Configurar número de workers
+Change the number of Workers in the supervisord.conf
+`
+[program:queue]
+process_name=%(program_name)s_%(process_num)02d
+command=php /var/www/maep_back/artisan --timeout=0 queue:work
+autostart=true
+autorestart=true
+numprocs=1
+redirect_stderr=true
+stderr_logfile=/var/www/maep_back/laraqueue.supervisord_out.log
+stdout_logfile=/var/www/maep_back/laraqueue.supervisord_out.log`
 
 
 
