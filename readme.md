@@ -4,6 +4,8 @@
 MAEP is a collection of tools for electrical engineers for analysis and electrical planning model.  
 MAEP web is a tool for manage the models of MAEP.
 
+This software is an application of open code and free access through web platform, to offer the user a tool for the planning of the operation of hydrothermal systems and with integration of renewable sources.
+
 ### MAEP Backend System
 Our backend system was build using Laravel. Laravel is a web application framework with expressive, elegant syntax. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects.
 You need to config the .env file that contains the environment variables of the configurations of the system (Databases, email, queue configuration)
