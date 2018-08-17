@@ -24,19 +24,18 @@ Es necesario que el backend cuente con todos los permisos en la carpeta storage 
 
 `chmod -R 777 ./storage ./bootstrap`
 
-### Instalación de Librerías python
-Es necesario que gurobi se encuentre instalado para ello debemos instalar:
+### Python Libraries
+Gurobi needs to be installed in your server:
 
 `conda install -c gurobi gurobi`
 
-Muy importante configurar la licencia de gurobi.Para más información:
+You need to have a gurobi license.
 http://www.gurobi.com/documentation/8.0/quickstart_mac/obtaining_a_gurobi_license.html
 
-Ejecutamos el siguiente comando para configurar el resto de librerías.
+Exec this command in your command line for install the python packages.
 
 `pip3 install numpy scipy pyomo progressbar`
 
-Es conveniente descargar MAEP CORE en el servidor y verificar que esté ejecutando correctamente.
 
 
 
