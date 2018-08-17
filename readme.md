@@ -10,7 +10,10 @@ Our backend system was build using Laravel. Laravel is a web application framewo
 ### Deployment
 If you need to deploy this please check this documentation. https://laravel.com/docs/5.5/deployment
 
+### Seeds
+The application comes with preconfigured registers. If you need execute this please insert this command:
 
+`php artisan db:seed'
 
 
 ### License
