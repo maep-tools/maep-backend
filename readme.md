@@ -47,7 +47,7 @@ https://laravel.com/docs/5.5/seeding
 
 
 
-### Configurar número de workers
+### Workers
 Change the number of Workers in the supervisord.conf
 ```
 [program:queue]
