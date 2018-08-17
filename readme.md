@@ -7,8 +7,8 @@ MAEP web is a tool for manage the models of MAEP.
 ### MAEP Backend System
 Our backend system was build using Laravel. Laravel is a web application framework with expressive, elegant syntax. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects.
 
-
-
+### Deployment
+If you need to deploy app please check this documentation. https://laravel.com/docs/5.5/deployment
 
 
 
