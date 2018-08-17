@@ -57,7 +57,11 @@ which python3
 upload_max_filesize = 40M
 post_max_size = 40M
 ```
+### Redis
 
+```
+sudo systemctl enable redis-server
+```
 
 Gurobi needs to be installed in your server:
 
