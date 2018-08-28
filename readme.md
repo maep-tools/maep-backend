@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="460" height="300" src="https://maep-tools.github.io/landing-page/assets/img/theme/Vector.svg">
+    <img width="230" height="150" src="https://maep-tools.github.io/interface-landingpage/assets/img/theme/Vector.svg">
 </p>
 MAEP is a collection of tools for electrical engineers for analysis and electrical planning model.  
 MAEP web is a tool for manage the models of MAEP. This software is an application of open code and free access through web platform, to offer the user a tool for the planning of the operation of hydrothermal systems and with integration of renewable sources.
