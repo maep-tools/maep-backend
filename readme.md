@@ -2,11 +2,11 @@
     <img width="86.5" height="113.7" src="https://maep-tools.github.io/interface-landingpage/assets/img/theme/Recurso 16@2x-8.png">
 </p>
 
-MAEP is a collection of tools for electrical engineers for analysis and electrical planning model.  
-MAEP web is a tool for manage the models of MAEP. This software is an application of open code and free access through web platform, to offer the user a tool for the planning of the operation of hydrothermal systems and with integration of renewable sources.
+MAEP is a collection of tools for operation planning of power systems.  
+MAEP web interface is a tool for manage the optimization models of MAEP. This tool is an open-source application of free access through a web environment.
 
 ### MAEP Backend System
-Our backend system was build using Laravel. Laravel is a web application framework with expressive, elegant syntax. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects.
+MAEP's backend system was build using Laravel. Laravel is a web application framework with expressive, elegant syntax. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects.
 You need to config the .env file that contains the environment variables of the configurations of the system (Databases, email, queue configuration)
 
 Tecnology to install in your server:
@@ -43,9 +43,6 @@ post_max_size = 40M
 ```
 sudo systemctl enable redis-server
 ```
-
-
-
 
 ### Python Libraries
 
@@ -130,7 +127,6 @@ php artisan queue:work
 ```
 
 
-
 ### License
 ----
 MIT
@@ -141,5 +137,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
